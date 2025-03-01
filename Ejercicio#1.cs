@@ -32,7 +32,7 @@ class Program
         c = char.ToLower(c);
         if (c >= 'a' && c <= 'z')
             return c - 'a' + 1;
-        return -1; // Not a letter
+        return -1; 
     }
 }
 
